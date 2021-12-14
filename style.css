@@ -1,0 +1,97 @@
+body {
+    background-image: url(DeskWalls.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 0;
+    height: 0;
+    font-weight: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ button{
+    display: none;
+    width: 20rem;
+    margin-top: 15rem;
+    margin-left: 30rem;
+    text-align: center;
+    border: 2px solid #4caf50;
+    background: none;
+    color: rgba(200, 200, 200, 0.9);
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #42453f;
+    color: #4caf50;
+    opacity: 0.7;
+}
+
+button:active {
+    background-color: #4caf50;
+    color: rgba(200, 200, 200, 0.9);
+    opacity: 0.7;
+}
+
+.login-box {
+    width: auto;
+    /* display: none; */
+    position: absolute;
+    margin: 15rem 0 0 40rem;
+    transform: translate(-50%, -50%);
+    color: rgba(200, 200, 200, 0.9);
+}
+
+.login-box h1 {
+    width: 150%;
+    text-align: center;
+    float: left;
+    border-bottom: 4px solid #4caf50;
+    margin-bottom: 2rem;
+    padding: 13px 0;
+}
+
+.login-box .textbox {
+    width: 150%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid #4caf50;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    text-decoration: tomato;
+}
+
+.textbox input::placeholder {
+    color: rgba(200, 200, 200, 0.9);
+}
+
+.login-box .btn {
+    width: 150%;
+    text-align: center;
+    border: 2px solid #4caf50;
+    background: none;
+    color: rgba(200, 200, 200, 0.9);
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+}
+
+.login-box .btn:hover {
+    background-color: #42453f;
+    color: #4caf50;
+    opacity: 0.7;
+}
+
+.login-box .btn:active {
+    background-color: #4caf50;
+    color: rgba(200, 200, 200, 0.9);
+    opacity: 0.7;
+}
